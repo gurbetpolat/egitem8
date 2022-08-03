@@ -1,0 +1,168 @@
+#title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
+    color: black
+}
+
+#description {
+    text-align: center;
+    font-size: 1.125rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+.daire{
+    display: flex;
+    align-items: center;
+}
+.input-radio{
+ height: 50px;
+ width: 10px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+
+
+
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#survey-form {
+    background-color: rgba(200, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 800px;
+    opacity: 0.8px;
+    height: 1900px;
+    margin: auto;
+    margin-bottom: 80px;
+
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+
+}
+
+.group-form {
+    margin: auto;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 50px;
+
+
+}
+
+
+
+.group-form,
+input {
+    width: 720px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+ .kutu{
+    width: 30px;
+    height: 20px;
+   
+ }
+ .form-group seven{
+    flex-direction: column;
+  
+   
+ }
+.one {
+    position: relative;
+    top: 10px;
+
+}
+
+.two {
+    position: relative;
+    top: 30px;
+
+}
+
+.three {
+    position: relative;
+    top: 30px;
+
+}
+
+.for {
+    position: relative;
+    top: 30px;
+
+
+}
+
+#dropdown {
+
+
+    width: 720px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.five {
+    position: relative;
+    top: 80px;
+    left: 40px;
+
+}
+.input-radio{
+    width: auto;
+}
+
+
+
+.six {
+    position: relative;
+    top: 60px;
+}
+
+.seven {
+    position: relative;
+    top: 180px;
+    left: 40px;
+}
+
+
+.eight {
+    position: relative;
+    top:180px;
+}
+
+.submit {
+    width: 540px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #37af65;
+    border-color: #37af65;
+    border-radius: 0;
+}
+
+

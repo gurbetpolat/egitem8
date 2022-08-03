@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <br>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form id="survey-form">
+            <div class="group-form one">
+                <label id="name-label" placeholder="Enter your comment here...">Name
+                    <input required id="name" type="text" placeholder="Enter your name" />
+                </label>
+            </div>
+            <div class="group-form two">
+                <label id="email-label">Email
+                    <input id="email" type=”email” required placeholder="Enter your email" />
+                </label>
+            </div>
+            <div class="group-form three">
+                <label id="number-label">Age(optional)
+                    <input id="number" type="number" min="8" max="12" placeholder="Age" />
+                </label>
+            </div>
+            <div class="group-form for">
+                <label>Which option best describes your current role?
+
+                    <select id="dropdown">
+                        <option>Select current role</option>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Full Time Learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group five">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <div class="daire">
+                    <input name="user-recommend" type="radio" class="input-radio" id="radio1">
+                    <label for="radio1">
+                        Definitely
+                    </label>
+                </div>
+                <div class="daire">
+                    <input name="user-recommend" type="radio" class="input-radio" id="radio2">
+                    <label for="radio2">
+                       Maybe
+                    </label>
+                </div>
+                <div class="daire">
+                    <input name="user-recommend"  type="radio" class="input-radio" id="radio3">
+                    <label for="radio3">Not Sure</label>
+                </div>
+
+            </div>
+            <div class="group-form six">
+                <label>What is your favorite feature of freeCodeCamp?
+                    <select id="dropdown">
+                        <option>Select an option</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                </label>
+
+            </div>
+            <div class="form-group seven">
+                <p>
+                    What would you like to see improved?
+                    <span class="clue">(Check all that apply)</span>
+                </p>
+                <div>
+                    <input class="kutu" name="prefer"  type="checkbox" class="input-checkbox" id="radio4">
+                    <label for="radio4">Front-end Projects</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" name="prefer" id="radio5" type="checkbox" class="input-checkbox">
+                    <label for="radio5">Back-end Projects</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" name="prefer" id="radio6"  type="checkbox" class="input-checkbox">
+                    <label for="radio6">Data Visualization</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio7" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio7">Challenges</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio8" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio8">Open Source Community</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" name="prefer" id="radio9" type="checkbox" class="input-checkbox">
+                    <label for="radio9">Gitter help rooms</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio10" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio10">Videos</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio11" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio11">City Meetups</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio12" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio12">Wiki</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio13" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio13">Forum</label>
+                   
+                </div>
+                <div>
+                    <input class="kutu" id="radio14" name="prefer"  type="checkbox" class="input-checkbox">
+                    <label for="radio14">Additional Courses</label>
+                   
+                </div>
+            </div>
+
+            <div class="group-form eight">
+                <label>Any comments or suggestions?
+                    <br><br>
+                    <textarea name="yaz" rows="8" cols="70" placeholder="Enter your comment here..."></textarea>
+                </label>
+                <input class="submit" type="submit" value="Submit" />
+            </div>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
